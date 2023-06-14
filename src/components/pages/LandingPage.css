@@ -1,0 +1,62 @@
+.hero {
+    background-color: var(--pink);
+    height: 100%;
+    margin-top: 11vh;
+}
+
+.btn-lg {
+    font-size: 19px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.heroImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero-text {
+    font-size: calc(5vw);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.nav-item {
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    font-family: 'proxima-nova', sans-serif;
+    align-items: center !important;
+    margin: 0 1rem;
+}
+
+mark {
+    background: rgb(221, 65, 198);
+    background: linear-gradient(90deg, rgb(221, 65, 198) 0%, rgb(150, 0, 0) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+
+.divider {
+    padding-top: 10%
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.compare-button {
+    background-color: transparent;
+}

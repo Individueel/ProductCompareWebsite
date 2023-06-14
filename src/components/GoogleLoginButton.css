@@ -1,0 +1,7 @@
+.btn-google {
+    border-radius: 15px 50px 30px;
+}
+
+.btn-google:hover {
+    color: var(--pink) !important;
+}

@@ -1,0 +1,76 @@
+.searchbar {
+    border: none;
+    border-radius: 0%;
+    padding: 5px 10px;
+    outline: none;
+    background-color: transparent;
+}
+
+.searchbar-white {
+    border-bottom: 3px solid white;
+}
+
+.searchbar-black {
+    border-bottom: 3px solid black;
+}
+
+.searchbar:focus {
+    background-color: transparent;
+    outline: none !important;
+    border: none !important;
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease;
+    text-indent: -100%;
+    opacity: 1;
+}
+
+.searchbar-white::placeholder {
+    color: white;
+}
+
+.searchbar-black::placeholder {
+    color: black;
+}
+
+.breadcrumb-item::first-letter {
+    text-transform: capitalize;
+}
+
+.dropdown-menu {
+    background: rgba(255, 255, 255, 0.95);
+}
+
+.dropdown-menu-center {
+    right: auto;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+
+.dropdown-row {
+    border-left: 2px solid var(--pink);
+}
+
+.pinky {
+    color: var(--pink) !important;
+}
+
+.dropdown-item {
+    color: black !important;
+}
+
+.dropdown-item:hover {
+    background-color: transparent !important;
+    font-weight: 600 !important;
+}
+
+.logo {
+    letter-spacing: 3px !important;
+}
+
+.nav-item {
+    letter-spacing: 1.5px !important;
+}

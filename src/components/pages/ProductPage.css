@@ -1,0 +1,29 @@
+body {
+    overflow-y: visible;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">" !important;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.breadcrumb-item {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    font-weight: 400;
+    color: black;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+
+.navbar {
+    box-shadow: none;
+}
